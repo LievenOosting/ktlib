@@ -1,6 +1,6 @@
-package com.lieven.ktlib.impl
+package com.lieven.ktlib.interf
 
-interface ImplActivity {
+interface IActivity {
     fun getLayoutId(): Int
     fun createView()
     fun setListener()

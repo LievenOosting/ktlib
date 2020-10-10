@@ -1,6 +1,6 @@
-package com.lieven.ktlib.impl
+package com.lieven.ktlib.interf
 
-interface ImplFragment {
+interface IFragment {
     fun getLayoutId(): Int
     fun attach()
     fun createView()

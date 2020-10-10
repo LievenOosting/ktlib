@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.lieven.ktlib.impl.ImplFragment
+import com.lieven.ktlib.interf.IFragment
 
-abstract class BaseFragment : Fragment(), ImplFragment {
+abstract class BaseFragment : Fragment(), IFragment {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
